@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/simpleMultiAutoCompleteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:gravity="center"
+        android:hint="Enter Your Text Here"
+        android:padding="10dp"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
